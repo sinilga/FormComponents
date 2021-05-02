@@ -72,4 +72,4 @@ end
 
 ```
 ### См. также ###
-- [Форма ввода для банка Primer1](https://github.com/sinilga/ScrollPanel/blob/master/Demo%20FormsCopy.cfc). 
+- [Форма ввода для банка Primer1](Demo%20FormsCopy.cfc). 
