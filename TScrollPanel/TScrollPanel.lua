@@ -196,16 +196,16 @@ local function SetControlPosition(self)
 		view.Height = self.Site.Height
 	else
 		view.X = 0
-		if obj.btnBack then
-			view.Y = obj.btnBack.Height
+		if self.btnBack then
+			view.Y = self.btnBack.Height
 		else
 			view.Y = 0
 		end		
-		view.Width = obj.Site.Width
-		if obj.btnForward then
-			view.Height = obj.btnForward.Y - view.Y
+		view.Width = self.Site.Width
+		if self.btnForward then
+			view.Height = self.btnForward.Y - view.Y
 		else
-			view.Height = obj.Site.Height - view.Y
+			view.Height = self.Site.Height - view.Y
 		end
 	end
 	if self.Direction == "H" and self.pnlContent.X + self.pnlContent.Width < view.Width then
