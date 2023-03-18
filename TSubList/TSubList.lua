@@ -4,6 +4,7 @@ local TControls = require("TControls")
 local TSubList = {	 }
 --[[
 	Элемент управления для работы со списком связанных записей на основе таблицы.
+	UTF-8
 ]]
 
 local function SaveRecord(form)
