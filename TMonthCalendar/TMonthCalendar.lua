@@ -7,7 +7,7 @@ local ActiveItem = Color.Highlight
 local ActiveItemText = Color.HighlightText
 local InactiveText = Color.Silver
 
-function CollapseControl(ctrl,x1,y1,x2,y2)
+local function CollapseControl(ctrl,x1,y1,x2,y2)
 	x1 = x1 or 0
 	y1 = y1 or 0
 	if x1 < 0 then x1 = 0 end
@@ -45,7 +45,7 @@ function CollapseControl(ctrl,x1,y1,x2,y2)
 	end
 end
 
-function ExpandControl(ctrl,x1,y1,x2,y2)
+local function ExpandControl(ctrl,x1,y1,x2,y2)
 	x1 = x1 or 0
 	y1 = y1 or 0
 	if x1 < 0 then x1 = 0 end
