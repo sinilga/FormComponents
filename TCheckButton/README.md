@@ -66,14 +66,14 @@ icons - таблица пикторграмм дл кнопки. Должна с
 
   OnCheckStateChanged(*TCheckButton* control)  
 
-Control - объект TCheckButton, для которого было сгенерировано событие.
+сontrol - объект TCheckButton, для которого было сгенерировано событие.
 
 **OnClick**   
 Обработчик события Click, которое происходит при одинарном щелчке на элементе левой клавишей мыши. 
 
   OnClick(*TCheckButton* control)   
 
-Control - объект TCheckButton, для которого было сгенерировано событие.
+сontrol - объект TCheckButton, для которого было сгенерировано событие.
 
 
 ## Пример использования
