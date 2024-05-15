@@ -40,7 +40,7 @@
 
 
 ## Методы
-_TCheckButton_ **new** 
+_TCheckButton_ **new**  
 конструктор  
 
 new(*Panel* site, *string* type )   
@@ -60,13 +60,21 @@ icon3 - пиктограмма недоступной кнопки. Содерж
 icons - таблица пикторграмм дл кнопки. Должна содержать три строки (содержимое графического файла в кодировке Base64), соответствующих состояниям "нажато", "отжато" и "недоступно"
 
 ## События ##
-**OnCheckStateChanged**(*TCheckButton* control) -  
-Событие OnCheckStateChanged происходит при изменении состояния кнопки. 
+
+**OnCheckStateChanged**  
+Обработчик события CheckStateChanged, которое происходит при изменении состояния кнопки. 
+
+  OnCheckStateChanged(*TCheckButton* control)  
+
 Control - объект TCheckButton, для которого было сгенерировано событие.
 
-**OnClick**(*TCheckButton* control) -  
-Событие Click происходит при одинарном щелчке на элементе левой клавишей мыши. 
+**OnClick**   
+Обработчик события Click, которое происходит при одинарном щелчке на элементе левой клавишей мыши. 
+
+  OnClick(*TCheckButton* control)   
+
 Control - объект TCheckButton, для которого было сгенерировано событие.
+
 
 ## Пример использования
 ``` lua
