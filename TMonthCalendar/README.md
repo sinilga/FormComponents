@@ -37,7 +37,7 @@
 local TMonthCalendar = require "TMonthCalendar"
 
 function Форма_Load( form )
-	Calendar = TMonthCalendar.new(Me.panel1)
+	Calendar = TMonthCalendar(Me.panel1)
 	Calendar.OnDateSelect = function(sender, day, month, year)
 		Me.textbox1.Text = ("%02d.%02d.%d"):format(day,month,year)
 	end
